@@ -1,0 +1,390 @@
+
+*{
+	-moz-border-sizing:border-box;
+	-webkit-border-sizing:border-box;
+	-o-border-sizing:border-box;
+	border-sizing:border-box;
+}
+
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.table{
+	height: 100%;	
+	display: table;	
+}
+
+.table-row{
+	display: table-row;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+
+.clearf{
+	clear: both;
+}
+.center{
+	text-align: center;
+}
+.upper{
+	text-transform: uppercase;
+}
+.mainColor{
+	color: #f7600e;
+}
+.main-backgrond{
+	background-color: #f7600e;
+}
+
+.hidden{
+	display: none;
+}
+
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+
+
+/* my web site */
+/* header */
+.header {
+	background-size:cover;
+	background: url(../images/walk.jpg);
+	height: 100%;
+}
+.overlay{
+	background: rgba(9, 8, 5, 0.6);
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.table-row .contant .buttons button{
+	background: transparent;
+	width: 120px;
+	padding:10px;
+	margin: 0 5px;
+	border: 1px solid #CCC;
+	border-radius: 5px;
+	color: #FFF;
+	transition: all 0.5s ease-in-out;
+	position: relative;
+}
+.table-row .contant .buttons button:hover{
+	background-color: #f7600e !important;
+	border: 1px solid #f7600e !important;
+	color: #FFF !important;
+}
+.header .navbar{
+	padding: 20px 0;
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	width: 100%;
+}
+.header .navbar .links i{
+	margin-left: 10px;
+}
+
+.header .contant h1{
+	font-size: 50px;
+	color: #FFF;
+}
+.header .contant p{
+	font-size:18px;
+	line-height: 1.6;
+	color: #555;
+}
+.header .arrow{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	padding: 40px 0;
+}
+.header .arrow i{
+	width:38px;
+	height: 38px;
+	border: 1px solid #EEE;
+	border-radius: 50%;
+	line-height: 38px;
+	color: #EEE;
+}
+.feat{
+	padding-top:40px; 
+	padding-bottom:40px; 
+}
+.feat .box {
+	width: 24%;
+	margin-left: 1%;
+	padding: 20px 0;
+}
+
+.feat .box .icon i{
+	width:120px;
+	height: 120px;
+	border: 1px solid #f7600e;
+	border-radius: 50%;
+	line-height: 120px;
+	color: #f7600e;	
+}
+.feat .box .text h2{
+	color: #555;
+	width: 100%;
+} 
+.feat .box .text p{
+	color: #555;
+	line-height: 1.5;
+	font-size: 16px;
+	width: 100%;
+} 
+
+.sub{
+	background: url("../images/dsa.jpg") no-repeat;
+	background-size: cover;
+	min-height: 200px;
+}
+.sub .b-f{
+	padding: 40px 0;
+	line-height: 200px;
+}
+
+.sub .b-f form input{
+	width: 400px;
+	background: #555;
+	opacity: 0.5;
+	border: 1px solid #555;
+	border-radius: 5px;
+	height: 30px;
+	text-align: center;
+}
+.sub .b-f button{
+	width: 100px;
+	background: #f7600e;
+	opacity: 0.5;
+	border: 1px solid #f7600e;
+	border-radius: 5px;
+	height: 33px; 
+	color: #FFF;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.sub .b-f button:hover{
+	opacity: 0.8;	
+}
+.ourwork {
+	padding: 20px;
+}
+.ourwork .items .boxM{
+	height: 300px;
+	width: 29.666666%;
+	margin-left: 3%;
+	overflow:hidden; 
+	border: 1px solid #EEE;
+	border-radius:10px;
+	margin-bottom: 10px;
+	position: relative;
+}
+.ourwork .items .boxM img{
+	width: 100%;
+	height: 100%;
+}
+.ourwork .items .boxM .overgay{
+	background: rgba(193, 209, 13, 0.6);
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	line-height: 30px;
+	height: 100%;
+	width: 100%;
+	color: #FFF;
+	display: none;
+}
+.overgay button{
+	background: transparent;
+	border: 1px solid #EEE;
+	border-radius: 5px;
+	padding: 10px;
+	color: #FFF;
+}
+.overgay button:hover{
+	background: #f7600e;
+	border: 1px solid #f7600e;
+	border-radius: 5px;
+	padding: 10px;
+	color: #FFF;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+.ourwork .items .boxM:hover .overgay{
+	display: block;
+}
+.bot button{
+	background: transparent;
+	border: 1px solid #EEE;
+	border-radius: 5px;
+	color: #000;
+	width: 160px;
+	height: 50px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.bot button:hover{
+	background: #f7600e;
+}
+.testo{
+	background: url(../images/600528.png);
+	background-size:cover; 
+}
+.testo .client{
+	padding: 50px 0;
+}
+
+.testo .client .imgcli {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+.testo .client .imgcli img{
+	width: 100%;
+	height: 100%;
+}
+
+.testo .client h2,p{
+	color: #FFF;
+	line-height: 2;
+	font-style: italic;
+}
+
+.testo .fa-chevron-left,
+.testo .fa-chevron-right{
+	position: absolute;
+	top: 50%;
+	cursor: pointer;
+	color: #EEE;
+	opacity: 0.9;
+}
+.testo .fa-chevron-left{
+	left: 0;
+}
+.testo .fa-chevron-right{
+	right: 0;
+}
+.team{
+	padding: 70px 0 !important;
+}
+.team .teamimg{
+	width:19%;
+	margin-left: 6%;
+}
+.team p{
+	font-size: 16px;
+	font-weight: normal;
+	color: #555;
+}
+.team .teamim img{
+	width:100%;
+	height: 200px;
+	border: 1px solid #f7600e;
+}
+.team .teamimg h2{
+	font-size: 16px;
+	font-weight: normal;
+	color: #555;
+}
+.team .teamimg p{
+	font-size: 16px;
+	font-weight: normal;
+	color: #555;
+	line-height: 1.5;
+}
+.team .teamimg .socila i{
+	width: 32px;
+	height: 25px;
+	border-radius: 50%;
+	border: 1px solid #555;
+	color: #555;
+	margin-left: 5px;
+	padding-top: 8px;
+	-webkit-transition: all 0.5s ease-in-out;
+	-moz-transition: all 0.5s ease-in-out;
+	transition: all 0.5s ease-in-out;
+}
+
+.team .teamimg .socila i:hover{
+	border: none;
+	color: #ff0;
+	margin-left: 5px;
+}
+.say2{
+	padding: 40px 0;
+}
+.say{
+	min-height: 490px;
+	background: url('../images/De.jpg') no-repeat;
+	background-size: cover;
+}
+.say h2{ 
+	color:#555;
+}
+
+.say .contacUs .two{
+	display: inline-block;
+	width: 50%;
+}
+
+.say .contantUs .two input{
+	width: 388px;
+	background: #555;
+	opacity: 0.5;
+	border: 1px solid #555;
+	border-radius: 5px;
+	height: 45px;
+	text-align: center;
+	display: inline-block;
+	margin-left: 4px;
+	padding-left: 10px;
+}
+.say .contantUs textarea{
+	width: 800px;
+	background: #555;
+	opacity: 0.5;
+	border: 1px solid #555;
+	border-radius: 5px;
+	height: 200px;
+	text-align: center;
+	margin-top: 10px;
+	line-height: 200px;
+}
+
+.say .contantUs input[type="submit"]{
+	background: #f7600e;
+	color: #FFF;
+	margin-top: 10px;
+	width: 120px;
+	height: 38px;
+	display: block;
+	margin-left: 200px;
+	border: 1px solid #f7600e;
+	border-radius: 5px;
+}
